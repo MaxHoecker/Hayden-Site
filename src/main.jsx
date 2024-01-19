@@ -2,6 +2,7 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
 import About from './pages/About.jsx'
+import Works from './pages/Works.jsx'
 import {
   createBrowserRouter,
   RouterProvider,
@@ -21,6 +22,11 @@ const router = createBrowserRouter([
   {
     path: "/about",
     element: <About/>,
+    errorElement: <h1>404 not found</h1>,
+  },
+  {
+    path: "/works",
+    element: <Works/>,
     errorElement: <h1>404 not found</h1>,
   },
 ]);
