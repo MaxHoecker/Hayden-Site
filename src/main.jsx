@@ -14,7 +14,7 @@ import LandingPage from './pages/LandingPage.jsx';
  */
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "",
     element: <LandingPage/>,
     errorElement: <h1>404 not found</h1>,
   },

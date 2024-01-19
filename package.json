@@ -1,5 +1,6 @@
 {
   "name": "hayden-site",
+  "homepage":"https://haydenbrewer.com",
   "private": true,
   "version": "0.0.0",
   "type": "module",
