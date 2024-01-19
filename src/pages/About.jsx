@@ -1,7 +1,7 @@
 function About() {
 
   return (
-    <div className="h-screen lg:grid grid-cols-5 items-center">
+    <div className="h-screen bg-backgroundColor lg:grid grid-cols-5 items-center">
       <div />
       <div className="flex items-center justify-center col-span-3">
         <div className="lg:grid grid-cols-2 content-center">

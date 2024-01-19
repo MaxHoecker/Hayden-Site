@@ -1,6 +1,6 @@
 function Work() {
   return (
-    <div className="h-screen p-40 lg:grid grid-cols-4 gap-10 items-center text-xl" >
+    <div className="h-screen p-40 bg-backgroundColor lg:grid grid-cols-4 gap-10 items-center text-xl" >
       <img className="rounded-3xl" src='./work/chair-sketch.png' />
       <div className="p-5">
         Dungeon Master Chair: This is for the table top role pay game Dungeons and Dragons. The Dungeon Master sits on their throne setting the mood with the color changing back rest. The danger looms with the swords stabbed into the side of the chair. The endless possibilities in the infinity icosahedron.
