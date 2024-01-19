@@ -1,3 +1,6 @@
+
+import { Link } from 'react-router-dom'
+
 function Work() {
   return (
     <div className="min-h-screen md:p-40 p-10 bg-backgroundColor md:grid 2xl:grid-cols-4 md:grid-cols-2 gap-10 items-center text-xl" >
