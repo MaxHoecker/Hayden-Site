@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 export default function LandingPage() {
   return (
@@ -7,10 +8,10 @@ export default function LandingPage() {
         <div className='flex flex-col justify-center'>
           <h1 className='text-5xl h-fit text-right mb-5'>Hayden Brewer</h1>
           <div className='flex flex-col h-fit text-right'>
-            <a className='text-xl' href='/about'>About Me</a>
-            <a className='text-xl' href='/works'>My Work</a>
-            <a className='text-xl' href='/resume'>Resume</a>
-            <a className='text-xl' href='/contact'>Contact Me</a>
+            <Link className='text-xl' to='/about'>About Me</Link>
+            <Link className='text-xl' to='/works'>My Work</Link>
+            <Link className='text-xl' to='/resume'>Resume</Link>
+            <Link className='text-xl' to='/contact'>Contact Me</Link>
           </div>
         </div>
           <img className='w-96 rounded-3xl' src="./cover.png"/>
