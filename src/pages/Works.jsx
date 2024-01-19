@@ -1,6 +1,6 @@
 function Work() {
   return (
-    <div className="h-screen p-40 bg-backgroundColor lg:grid grid-cols-4 gap-10 items-center text-xl" >
+    <div className="min-h-screen p-40 bg-backgroundColor lg:grid grid-cols-4 gap-10 items-center text-xl" >
       <img className="rounded-3xl" src='./work/chair-sketch.png' />
       <div className="p-5">
         Dungeon Master Chair: This is for the table top role pay game Dungeons and Dragons. The Dungeon Master sits on their throne setting the mood with the color changing back rest. The danger looms with the swords stabbed into the side of the chair. The endless possibilities in the infinity icosahedron.
@@ -11,7 +11,7 @@ function Work() {
       </div>
       <img className="rounded-3xl" src='./work/vise-sketch.png' />
       <div className="p-5">
-        See Glass Ring: My dad never liked how he proposed to my mom and 2023 was their 30th wedding anniversary. I designed the ring in SolidWorks and 3D-printed it using a casting resin. With the help of a jeweler friend, we cast the ring in silver and used sea glass for the stones.
+        See Glass Ring: My dad never liked how he proposed to my mom so I offered to make a new ring. I designed the ring in SolidWorks and 3D-printed it using a casting resin. With the help of a jeweler friend, we cast the ring in silver and used sea glass for the stones.
       </div>
       <img className="rounded-3xl" src='./work/forge-sketch.png' />
       <div className="p-5">

@@ -1,10 +1,10 @@
 function About() {
 
   return (
-    <div className="h-screen bg-backgroundColor lg:grid grid-cols-5 items-center">
+    <div className="min-h-screen bg-backgroundColor md:grid xl:grid-cols-5 lg:grid-cols3 items-center">
       <div />
       <div className="flex items-center justify-center col-span-3">
-        <div className="lg:grid grid-cols-2 content-center">
+        <div className="md:grid grid-cols-2 content-center">
           <div className="p-10 my-auto flex justify-end">
               <img className="rounded-3xl" src='./boat.png' />
           </div>
