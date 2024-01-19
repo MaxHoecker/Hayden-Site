@@ -7,10 +7,14 @@ import {
 } from "react-router-dom";
 import './index.css'
 
+/**
+ * Note: Changing this locally requires restarting vite
+ */
 const router = createBrowserRouter([
   {
     path: "/",
     element: <App/>,
+    errorElement: <h1>404 not found</h1>,
   },
 ]);
 
