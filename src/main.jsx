@@ -6,7 +6,8 @@ import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
-import './index.css'
+import './index.css';
+import LandingPage from './pages/LandingPage.jsx';
 
 /**
  * Note: Changing this locally requires restarting vite
@@ -14,7 +15,7 @@ import './index.css'
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <App/>,
+    element: <LandingPage/>,
     errorElement: <h1>404 not found</h1>,
   },
   {
