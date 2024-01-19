@@ -14,7 +14,7 @@ export default function LandingPage() {
           </div>
         </div>
         <div className='center'>
-          <img className='w-96 rounded-3xl' src="./cover.png"/>
+          <img className='w-96 rounded-3xl md:mt-20' src="./cover.png"/>
           <a className='text-sm text-center block m-5 text-slate-200 max-md:hidden' href="mailto:hayden.brewer@maine.edu">hayden.brewer@maine.edu</a>
         </div>
       </div>
