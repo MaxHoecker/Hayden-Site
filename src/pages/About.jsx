@@ -1,10 +1,10 @@
 function Me() {
 
   return (
-    <div class="h-screen grid grid-cols-5 items-center">
+    <div class="h-screen lg:grid grid-cols-5 items-center">
       <div />
       <div class="flex items-center justify-center col-span-3">
-        <div class="grid grid-cols-2 content-center">
+        <div class="lg:grid grid-cols-2 content-center">
           <div class="p-10 my-auto flex justify-end">
               <img src='./boat.png' />
           </div>

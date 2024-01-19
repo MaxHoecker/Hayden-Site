@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
-import AboutMe from './pages/AboutMe.jsx'
+import About from './pages/About.jsx'
 import {
   createBrowserRouter,
   RouterProvider,
@@ -19,8 +19,8 @@ const router = createBrowserRouter([
     errorElement: <h1>404 not found</h1>,
   },
   {
-    path: "/aboutme",
-    element: <AboutMe/>,
+    path: "/about",
+    element: <About/>,
     errorElement: <h1>404 not found</h1>,
   },
 ]);
