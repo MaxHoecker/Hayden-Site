@@ -106,7 +106,7 @@ export default function LandingPage() {
         options={options}
       />
       <div className='min-w-screen min-h-screen flex justify-center content-center items-center flex-col'>
-        <div className='bg-backgroundColor border-2 border-[#9f9f9f] rounded-3xl px-5
+        <div className='bg-backgroundColor border-2 border-[#9f9f9f] rounded-3xl px-7
         flex gap-10 max-md:flex-col max-md:flex-col-reverse'>
           <div className='flex flex-col justify-center'>
             <h1 className='text-5xl text-right max-md:text-center mb-5'>Hayden Brewer</h1>
@@ -117,7 +117,7 @@ export default function LandingPage() {
             </div>
           </div>
           <div className='center'>
-            <img className='w-96 rounded-3xl md:mt-20' src="./cover.png"/>
+            <img className='w-96 rounded-3xl md:mt-8' src="./cover.png"/>
             <a className='text-sm text-center block m-5 text-slate-200 max-md:hidden' href="mailto:hayden.brewer@maine.edu">hayden.brewer@maine.edu</a>
           </div>
         </div>
