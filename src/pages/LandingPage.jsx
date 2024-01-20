@@ -29,7 +29,7 @@ export default function LandingPage() {
       () => ({
         background: {
           color: {
-            value: "#f9f9f9",
+            value: "#f1f1f1",
           },
         },
         fpsLimit: 144,
@@ -106,7 +106,8 @@ export default function LandingPage() {
         options={options}
       />
       <div className='min-w-screen min-h-screen flex justify-center content-center items-center flex-col'>
-        <div className='flex gap-10 max-md:flex-col max-md:flex-col-reverse '>
+        <div className='bg-backgroundColor border-2 border-[#9f9f9f] rounded-3xl px-5
+        flex gap-10 max-md:flex-col max-md:flex-col-reverse'>
           <div className='flex flex-col justify-center'>
             <h1 className='text-5xl text-right max-md:text-center mb-5'>Hayden Brewer</h1>
             <div className='flex flex-col items-end max-md:items-center'>
